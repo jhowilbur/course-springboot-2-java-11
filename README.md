@@ -164,9 +164,9 @@ OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 - Test:
 ~~~sql
 {
-"name": "Bob Brown",
-"email": "bob@gmail.com",
-"phone": "977557755"
+	"name": "Bob Brown",
+	"email": "bob@gmail.com",
+	"phone": "977557755"
 }
 ~~~
 
@@ -212,7 +212,7 @@ OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 
 ## Dev profile
 - Checklist:
-- [x] PgAdmin: create local database: create database springboot_course
+- [x] PgAdmin: create local database: create database springboot
 - [x] Add PostgreSQL Maven dependency
 ~~~xml
 <dependency>
@@ -223,7 +223,7 @@ OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 ~~~
 - [x] Create file: application-dev.properties
 ~~~xml
-spring.datasource.url=jdbc:postgresql://localhost:5432/springboot_course
+spring.datasource.url=jdbc:postgresql://localhost:5432/springboot
 spring.datasource.username=postgres
 spring.datasource.password=1234567
 
